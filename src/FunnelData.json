@@ -1,0 +1,27 @@
+[
+    {
+      "id": "step_sent",
+      "value": 81517,
+      "label": "Sent"
+    },
+    {
+      "id": "step_viewed",
+      "value": 55752,
+      "label": "Viewed"
+    },
+    {
+      "id": "step_clicked",
+      "value": 38990,
+      "label": "Clicked"
+    },
+    {
+      "id": "step_add_to_card",
+      "value": 29402,
+      "label": "Add To Card"
+    },
+    {
+      "id": "step_purchased",
+      "value": 27548,
+      "label": "Purchased"
+    }
+  ]

@@ -10,6 +10,14 @@ import BarGraph from "./BarGraph";
 import Nivodata from "./Nivodata.json";
 import MyResponsiveSunburst from "./SunBurst";
 import subBurstData from "./subBurstData.json";
+import SimpleComposedChart from "./SimpleComposedChart";
+import SimpleAreaChart from "./SimpleAreaChart";
+import SimpleRadialBarChart from "./SimpleRadialBarChart";
+import RadialData from "./RadialData.json";
+import RadialBar from "./RadialBar";
+import MyResponsiveFunnel from "./Funnel";
+import FunnelData from "./FunnelData.json";
+import UseFunnelGraph from "./FunnelGraph";
 
 const chartData = [
   {
@@ -61,6 +69,11 @@ function App() {
         <Pie />
         <AreaApp />
       </div>
+      <div className="row1">
+        <SimpleComposedChart />
+        <SimpleAreaChart />
+        <SimpleRadialBarChart />
+      </div>
 
       <h1>Nivo Charts</h1>
       <div className="row2">
@@ -70,6 +83,11 @@ function App() {
         <BarGraph data={data} />
         <MyResponsiveSunburst data={subBurstData} />
       </div>
+      <div className="row2">
+        <RadialBar data={RadialData} />
+        <MyResponsiveFunnel data={FunnelData} />
+      </div>
+      {/* <UseFunnelGraph /> */}
     </div>
   );
 }
