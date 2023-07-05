@@ -1,6 +1,6 @@
 import "./App.css";
 import Test from "./line";
-import Pie from "./pie";
+import Piee from "./pie";
 import AreaApp from "./area";
 import MyResponsiveBar from "./Nivo";
 // import data from "./data.json";
@@ -17,7 +17,7 @@ import RadialData from "./RadialData.json";
 import RadialBar from "./RadialBar";
 import MyResponsiveFunnel from "./Funnel";
 import FunnelData from "./FunnelData.json";
-import UseFunnelGraph from "./FunnelGraph";
+import FunnelG from "./FunnelGraph";
 
 const chartData = [
   {
@@ -66,7 +66,7 @@ function App() {
       <div className="row1">
         <Test />
 
-        <Pie />
+        <Piee />
         <AreaApp />
       </div>
       <div className="row1">
@@ -87,7 +87,7 @@ function App() {
         <RadialBar data={RadialData} />
         <MyResponsiveFunnel data={FunnelData} />
       </div>
-      {/* <UseFunnelGraph /> */}
+      <FunnelG />
     </div>
   );
 }

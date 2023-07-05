@@ -1,0 +1,17 @@
+html, body {
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
+    background: #adadc9;
+}
+
+.funnel {
+    margin: 24px auto;
+}
+
+.example-funnels {
+    display: flex;
+    flex-direction: column;
+}
